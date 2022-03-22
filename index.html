@@ -13,9 +13,9 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
     crossorigin="anonymous">
 
-  <!-- Bootstrap icon set -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  
+  <!-- Font Awesome icon set -->
+  <script src="https://kit.fontawesome.com/0544cb5778.js" crossorigin="anonymous"></script>
+
     <!-- My CSS stylesheet -->
   <link rel="stylesheet" href="css/style.css"/>
 
@@ -39,47 +39,61 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
+            <a class="nav-link active" href="#tile2">ROBOTS</a>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#tile3">Humans RULE</a>
+          </li> <li class="nav-item">
+            <a class="nav-link" href="#tile4">This is also an important</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
 
-  <!-- jumbotron --> 
-    <div class="container-fluid hero1 vh-100">
-      <div class="p-5 text-center bg-light">
-        <h1 class="display-5 fw-bold">Clear statement</h1>
-      </div>
-    </div>
+  <!-- first tile --> 
+  <div class="container-fluid hero1 vh-100 align-items-center d-flex opacity-75 justify-content-center">
+      <h1 class="display-1 fw-bold">Cursive is hard to read.</h1>
+  </div>
 
-   
-  <!-- FOOTER -->
-  <footer class="bd-footer mt-5 bg-light">
-    <div class="container">
-        <i class="bi bi-reddit fs-4 text-success"></i>
-        <i class="bi bi-github text-warning"></i>
-          <p class="mb-2">Designed and built with all the love in the world by the <strong>Phil<strong> with the help of <strong>Bitwise, Robert, Ethan, et al.<strong></p>
+  <!-- second tile --> 
+  <div id="tile2" class="container-fluid hero2 vh-100 align-items-center d-flex opacity-75 justify-content-center">
+    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+      <h2 class="fw-bold text-white">ROBOTS RULE</h2>
+      <p class="text-white">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
+      <button class="btn btn-warning btn-lg" type="button">Futurama</button>
     </div>
-  </footer>
+  </div>
+   
+ <!-- third tile --> 
+ <div id="tile3" class="container-fluid hero3 vh-100 align-items-center d-flex opacity-75 justify-content-center">
+    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+      <h2 class="fw-bold text-white">HUMANS RULE</h2>
+      <p class="text-white">Bender says that he wants to kill all humans, but I don't think he really does.</p>
+      <button class="btn btn-warning btn-lg" type="button">Push me</button>
+    </div>
+  </div>
+
+ <!-- fourth tile --> 
+ <div id="tile4" class="container-fluid hero4 vh-100 align-items-center d-flex opacity-75 justify-content-center">
+    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+      <h2 class="fw-bold text-white">This also is an important thing</h2>
+      <p class="text-white">I am writing sentences. The last time I had to write cursive by hand was when I took the SAT. It was the hardest part.</p>
+      <button class="btn btn-warning btn-lg" type="button">click</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="container-fluid bg-warning vh-50 align-items-center d-flex opacity-75 justify-content-center">
+    <div class="p-5 col-sm-10 col-lg-8 text-center opacity-100">
+      <h2 class="fw-bold text-white">Please do not contact me.</h2>
+      <div class="p-2">
+        <i class="fa-brands fs-1 p-2 text-white fa-reddit-alien"></i>
+        <i class="fa-brands fs-1 p-2 text-white fa-reddit-alien"></i>
+        <i class="fa-brands fs-1 p-2 text-white fa-reddit-alien"></i>
+      </div>
+      <p class="text-white">Am I done yet?</p>
+    </div>
+  </div>
 
 </body>
 </html>
