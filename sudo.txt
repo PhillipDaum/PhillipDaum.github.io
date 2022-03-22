@@ -1,0 +1,11 @@
+My color codes
+warning  $yellow
+"info":       $info
+Dark
+
+
+Background colors 
+    $yellow-100
+    $cyan-400
+    $pink-300
+    $orange-200
