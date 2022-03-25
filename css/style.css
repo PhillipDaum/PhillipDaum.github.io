@@ -12,37 +12,47 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Carousel styling */
+#introCarousel,
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-    height: 100vh;
+  height: 100vh;
 }
 
-.carousel-item:nth-child(1) {
+.carousel-item::nth-child(1) {
     background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: fixed;
 }
 
 .carousel-item:nth-child(2) {
     background-image: url(../img/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: fixed;
 }
 
 .carousel-item:nth-child(3) {
     background-image: url(../img/3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: fixed;
 }
 
 .carousel-item:nth-child(4) {
     background-image: url(../img/4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: fixed;
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url(../img/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
 }
        
 #introCarousel,
@@ -50,4 +60,5 @@ p {
 .carousel-item,
 .carousel-item.active {
     height: 50vh;
+}
 }

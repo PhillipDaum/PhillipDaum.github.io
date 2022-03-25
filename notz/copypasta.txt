@@ -1,3 +1,90 @@
+
+<div class="container-fluid d-flex vh-100 align-items-center justify-content-center">
+    <!-- Carousel wrapper -->
+    <div id="introCarousel" class="carousel slide carousel-fade container-fluid d-flex align-items-center vh-100" data-mdb-ride="carousel">
+      
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="3"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="4"></li>
+      </ol>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+          
+        <!-- item 1 -->
+        <div class="carousel-item active">
+            <div class="container-fluid align-items-center d-flex opacity-75 justify-content-center">
+                <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+                  <h2 class="fw-bold text-white">Here's a story</h2>
+                  <p class="text-white">of a lovely doggie, Aya,</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="carousel-item">
+            <div class="container-fluid vh-100 align-items-center d-flex opacity-75 justify-content-center">
+                <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+                <h2 class="fw-bold text-white">ROBOTS RULE</h2>
+                <p class="text-white">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
+                <button class="btn btn-warning btn-lg" type="button">Futurama</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- item 3 -->
+        <div class="carousel-item">
+          <div class="container-fluid vh-100 align-items-center d-flex opacity-75 justify-content-center">
+              <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+              <h2 class="fw-bold text-white">ROBOTS RULE</h2>
+              <p class="text-white">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
+              <button class="btn btn-warning btn-lg" type="button">Futurama</button>
+              </div>
+          </div>
+      
+          <!-- item 4 -->
+        <div class="carousel-item">
+          <div class="container-fluid vh-100 align-items-center d-flex opacity-75 justify-content-center">
+              <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+              <h2 class="fw-bold text-white">ROBOTS RULE</h2>
+              <p class="text-white">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
+              <button class="btn btn-warning btn-lg" type="button">Futurama</button>
+              </div>
+          </div>
+
+        <!-- item 5 -->
+        <div class="carousel-item">
+          <div class="container-fluid vh-100 align-items-center d-flex opacity-75 justify-content-center">
+              <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
+              <h2 class="fw-bold text-white">ROBOTS RULE</h2>
+              <p class="text-white">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
+              <button class="btn btn-warning btn-lg" type="button">Futurama</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+    <!-- Controls -->
+      <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Carousel wrapper -->
+  </div>
+
+
+
+
 <!-- Carousel wrapper -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
