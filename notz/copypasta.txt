@@ -1,0 +1,66 @@
+<!-- Carousel wrapper -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <!-- item 1 -->
+      <div class="carousel-item active vh-100">
+        <img src="./img/aya.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption align-items-center d-none d-md-block">
+          <h5>Here's a story</h5>
+          <p>of a lovely doggie, Aya,</p>
+        </div>
+      </div>
+
+      <!-- item 2 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/mavis.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>who met a nice goat called Mavis,</p>
+        </div>
+      </div>
+
+      <!-- item 3 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/loretta.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Loretta got jealous...</p>
+        </div>
+      </div>
+
+      <!-- item 4 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/pumpkin.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Pumpkin had her head in the ground...</p>
+        </div>
+      </div>
+
+      <!-- item 5 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/loretta.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Loretta got jealous</h5>
+          <p>and she had here way...</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+<!-- Carousel wrapper -->

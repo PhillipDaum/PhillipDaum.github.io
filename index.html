@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Phil's Website</title>
+  <title>[x] close tab</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +29,7 @@
   <!-- nav bar -->
   <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">[x] close window</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,51 +39,86 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#tile2">ROBOTS</a>
+            <a class="nav-link active" href="#tile2">fake link</a>
           <li class="nav-item">
-            <a class="nav-link" href="#tile3">Humans RULE</a>
+            <a class="nav-link" href="#tile3">other fake link</a>
           </li> <li class="nav-item">
-            <a class="nav-link" href="#tile4">This is also an important</a>
+            <a class="nav-link" href="#tile4">even another fake link</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- first tile --> 
-  <div class="container-fluid hero1 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-      <h1 class="display-1 fw-bold">Cursive is hard to read.</h1>
-  </div>
+  <!-- Carousel wrapper -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
 
-  <!-- second tile --> 
-  <div id="tile2" class="container-fluid hero2 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
-      <h2 class="fw-bold text-white">ROBOTS RULE</h2>
-      <p class="text-white">Bender is one example of a robot who I love, but he doesn't follow Asimov's laws</p>
-      <button class="btn btn-warning btn-lg" type="button">Futurama</button>
-    </div>
-  </div>
-   
- <!-- third tile --> 
- <div id="tile3" class="container-fluid hero3 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
-      <h2 class="fw-bold text-white">HUMANS RULE</h2>
-      <p class="text-white">Bender says that he wants to kill all humans, but I don't think he really does.</p>
-      <button class="btn btn-warning btn-lg" type="button">Push me</button>
-    </div>
-  </div>
+    <div class="carousel-inner">
 
- <!-- fourth tile --> 
- <div id="tile4" class="container-fluid hero4 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-    <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
-      <h2 class="fw-bold text-white">This also is an important thing</h2>
-      <p class="text-white">I am writing sentences. The last time I had to write cursive by hand was when I took the SAT. It was the hardest part.</p>
-      <button class="btn btn-warning btn-lg" type="button">click</button>
+      <!-- item 1 -->
+      <div class="carousel-item active vh-100">
+        <img src="./img/1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption align-items-center d-none d-md-block">
+          <h5>Here's a story</h5>
+          <p>of a lovely doggie, Aya,</p>
+        </div>
+      </div>
+
+      <!-- item 2 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/2.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>who met a nice goat called Mavis,</p>
+        </div>
+      </div>
+
+      <!-- item 3 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/3.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Loretta got jealous...</p>
+        </div>
+      </div>
+
+      <!-- item 4 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/4.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Pumpkin had her head in the ground...</p>
+        </div>
+      </div>
+
+      <!-- item 5 -->
+      <div class="carousel-item vh-100">
+        <img src="./img/1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Loretta got jealous</h5>
+          <p>and she had here way...</p>
+        </div>
+      </div>
+
     </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
   </div>
+<!-- Carousel wrapper -->
 
   <!-- FOOTER -->
-  <div class="container-fluid bg-warning vh-50 align-items-center d-flex opacity-75 justify-content-center">
+  <div class="container-fluid bg-warning d-flex align-items-center justify-content-center">
     <div class="p-5 col-sm-10 col-lg-8 text-center opacity-100">
       <h2 class="fw-bold text-white">Please do not contact me.</h2>
       <div class="p-2">

@@ -12,26 +12,42 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-.hero1 {
-  background-image: url(../img/1.jpg);
-  /* Full height */
-  height: 100%;
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 100vh;
 }
 
-.hero2 {
-  background-image: url(../img/2.jpg);
-  /* Full height */
-  height: 100%;
+.carousel-item:nth-child(1) {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
-.hero3 {
-  background-image: url(../img/3.jpg);
-  /* Full height */
-  height: 100%;
+.carousel-item:nth-child(2) {
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
+.carousel-item:nth-child(3) {
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
-.hero4 {
-  background-image: url(../img/4.jpg);
-  /* Full height */
-  height: 100%;
+.carousel-item:nth-child(4) {
+    background-image: url(../img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+       
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 50vh;
 }
