@@ -51,35 +51,48 @@
   </nav>
 
  
-  <!-- item 1 -->
-  <div class="container-fluid">
-    <div class="row"> 
-    <div class="jumbotron p-5 text-center bg-light">
-        <h1 class="display-5 fw-bold">Clear statement</h1>
-        <p class="col">This thing is called a jumbotron. I think it is a funy name. The button below does nothing. The first three sentences were about what this stuff is. This sentence and the last one are just to add more words so theings look like they have more stuff in them.</p>
-        <button class="btn btn-primary btn-lg" type="button">I am button. I do nothing.</button>
-      </div>
-    </div>
+  <!-- item 1 Two Rows ontop of slides that rotate with basic info-->
+  <div id="tile1" class="container-fluid vh-100 align-items-center d-flex bg-warning opacity-50 justify-content-center">
   </div>
+  
 
-   <!-- item 2 --> 
- <div id="tile2" class="container-fluid hero3 vh-100 align-items-center d-flex opacity-75 justify-content-center">
-  <div class="p-5 col-sm-10 col-lg-8 text-center bg-dark opacity-75">
-    <h2 class="fw-bold text-white">HUMANS RULE</h2>
-    <p class="text-white">Bender says that he wants to kill all humans, but I don't think he really does.</p>
-    <button class="btn btn-warning btn-lg" type="button">Push me</button>
-  </div>
+  <!-- item 2 accordian inside of folder --> 
+ <div id="tile2" class="container-fluid vh-100 align-items-center d-flex bg-info opacity-50 justify-content-center">
+
+    <!-- tabbed thingy --> 
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
+    <!-- tabbed thingy --> 
 </div>
+<!-- END item 2 accordian inside of folder --> 
 
-  <!-- BORING DETAILS -->
-  <div class="container-fluid">
-    <div class="row vh-100">
-      <ratio class="rickroll">
-        <iframe width="200%" height="200%" src="https://www.youtube.com/embed/dQw4w9WgXcQ?start=1&mute=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </ratio>
-    </div>
+<!-- Begin tile 3 with CONTACT form --> 
+  <div id="tile3" class="container-fluid vh-100 align-items-center d-flex bg-danger opacity-50 justify-content-center">
+      <!-- CONTACT form --> 
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+      <!-- CONTACT form --> 
   </div>
-  <!-- BORING DETAILS -->
 
 
   <!-- FOOTER -->
