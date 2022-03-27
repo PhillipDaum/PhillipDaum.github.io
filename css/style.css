@@ -1,3 +1,4 @@
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lobster&family=Open+Sans:wght@300&display=swap');
 
 h1 {
@@ -12,7 +13,39 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* HEADER TEXT - Layer 2*/
+.l2 {
+  position: absolute;
+  z-index: 2;
+}
+
 /* BORING DETAILS */
+
+/* Toast - Layer 3*/
+.l3 {
+  position: absolute;
+  z-index: 3;
+}
+
+/* rickroll - Layer 4*/
+.l3 {
+  position: absolute;
+  z-index: 4;
+}
+
+.rickroll2 {
+  background-image: url(https://giphy.com/embed/Ju7l5y9osyymQ);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
 rickroll {
   min-width: 200%;
   min-height: 200%;
