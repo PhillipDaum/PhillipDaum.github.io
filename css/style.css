@@ -20,14 +20,7 @@ p {
 }
 
 
-
-
-
-
-
 /* BORING DETAILS */
-
-
 .toast {
   position: absolute;
   bottom: 0;
@@ -41,7 +34,7 @@ p {
 /* rickroll - Layer 4*/
 .l3 {
   position: absolute;
-  z-index: 4;
+  z-index: -1;
 }
 
 .rickroll2 {
@@ -57,8 +50,4 @@ p {
   background-size: cover;
 }
 
-rickroll {
-  min-width: 200%;
-  min-height: 200%;
-}
 /* BORING DETAILS */
