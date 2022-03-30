@@ -21,14 +21,15 @@ p {
 
 
 /* BORING DETAILS */
-.toast {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 3;
-  background-attachment: scroll;
+
+
+
+.rr{
 }
 
+.toast {
+  position: scroll;
+}
 
 
 /* rickroll - Layer 4*/
