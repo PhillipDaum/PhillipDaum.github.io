@@ -22,6 +22,8 @@ p {
 
 /* BACKGROUND COLORS doesnt work*/
 
+@import "~bootstrap/scss/bootstrap";
+
 .tile-1 {
   
 }
