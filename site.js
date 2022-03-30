@@ -17,31 +17,27 @@ function openNewBackgroundTab(){
 //for (x) time
 
 
-function RickRollerson(main){
-    document.getElementById("tile-i").className = "bg-transparent";
-}
+function RickRollerson(){
+     document.getElementById("tile-3").className = "bg-transparent";
+     document.getElementById("tile-2").className = "bg-transparent";
+     document.getElementById("tile-1").className = "bg-transparent";
+    }  
 
-public class Main {
-    public static void main(String[] args) {
-      for (int i = 0; i < 5; i++) {
-        System.out.println(i);
-      }  
-    }
-  }
+
+//
+//public class Main {
+//    public static void main(String[] args) {
+//     for (int i = 0; i < 5; i++) {
+//       System.out.println(i);
+//      }  
+//    }
+// }
   
 
 
-function RickRollerson(1){
-            document.getElementById("tile-1").className = "bg-transparent";
-}
-
-function RickRollerson(2){
-    document.getElementById("tile-2").className = "bg-transparent";
-}
-
-function RickRollerson(3){
-    document.getElementById("tile-3").className = "bg-transparent";
-}
+//function RickRollerson(i){
+//            document.getElementById("tile-i").className = "bg-transparent";
+//}
 
 
 
