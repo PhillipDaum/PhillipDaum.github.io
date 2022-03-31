@@ -13,14 +13,18 @@ function openNewBackgroundTab(){
 //timed rickroll experience
 //if this 
 //button has been clicked
-//then z-index rickroll =2
+//make transparent all layer 1 backgrounds
 //for (x) time
+
+function clickyTime(){
+  document.getElementById("toast").className = "toast show";
+}
 
 
 function RickRollerson(){
      document.getElementById("tile-3").className = "bg-transparent";
      document.getElementById("tile-2").className = "bg-transparent";
-     document.getElementById("tile-1").className = "bg-transparent";
+     document.getElementById("tile-1").className = "container-fluid rr bg-transparent d-flex justify-content-center";
     }  
 
 
@@ -31,7 +35,10 @@ function unRickRollerson(){
     }  
     
 
+function annoyingMove(){
 
+    document.getElementById("toast").className = "toast";
+    document.getElementById("toast").className = "toast show";
 
-
+}
 
