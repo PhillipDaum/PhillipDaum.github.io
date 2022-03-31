@@ -32,13 +32,19 @@ function unRickRollerson(){
     document.getElementById("tile-3").className = "container-fluid rr";
     document.getElementById("tile-2").className = "container-fluid rr";
     document.getElementById("tile-1").className = "container-fluid rr d-flex justify-content-center";
-    }  
-    
+    setTimeout(100);
+    document.getElementById("toast").onmouseoverName ="";
+    document.getElementById("toast").className = "toast show";
+} 
 
 function annoyingMove(){
 
+    let l = "position-fixed bottom-1 start-2 p-5"
+    let m = "position-fixed bottom-2 end-1 p-5"
+    let n = "position-fixed top-2 start-1 p-5"
+
+    
     document.getElementById("toast").className = "toast";
+    document.getElementById("trick").className = m;
     document.getElementById("toast").className = "toast show";
-
 }
-
