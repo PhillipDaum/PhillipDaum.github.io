@@ -1,4 +1,4 @@
-//opens one portfolio item in seperate tab
+//opens one portfolio item in seperate tab NO WORKY
 function openNewBackgroundTab(){    
     var a = document.createElement("a");    
     a.href = "https://github.com/PhillipDaum/parallax-practice";    
@@ -31,20 +31,6 @@ function unRickRollerson(){
     }  
     
 
-//
-//public class Main {
-//    public static void main(String[] args) {
-//     for (int i = 0; i < 5; i++) {
-//       System.out.println(i);
-//      }  
-//    }
-// }
-  
-
-
-//function RickRollerson(i){
-//            document.getElementById("tile-i").className = "bg-transparent";
-//}
 
 
 
