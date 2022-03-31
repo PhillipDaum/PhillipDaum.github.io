@@ -20,7 +20,26 @@ p {
 }
 
 
-/* BACKGROUND COLORS doesnt work*/
+/* BACKGROUND COLORS*/
+#tile-4 {
+  background-color: #E2FFBD;
+}
+
+#tile-3 {
+  background-color: #A2F8FA;
+}
+
+#tile-2{
+  background-color: #A696D1;
+}
+
+#tile-1 {
+  background-color: #F2F2F2;
+}
+
+#tile-0 {
+  background-color: #F2F2F2;
+}
 
 /* BORING DETAILS */
 .rr{
@@ -39,15 +58,10 @@ p {
 
 .rickroll2 {
   background-image: url(https://c.tenor.com/_4YgA77ExHEAAAAC/rick-roll.gif);
-
-  /* Full height */
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
 }
-
 /* BORING DETAILS */

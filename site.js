@@ -25,10 +25,11 @@ function RickRollerson(){
 
 
 function unRickRollerson(){
-    document.getElementById("tile-3").className = "bg-warning";
-    document.getElementById("tile-2").className = "bg-info";
-    document.getElementById("tile-1").className = "bg-success";
+    document.getElementById("tile-3").className = "container-fluid rr";
+    document.getElementById("tile-2").className = "container-fluid rr";
+    document.getElementById("tile-1").className = "container-fluid rr d-flex justify-content-center";
     }  
+    
 
 //
 //public class Main {

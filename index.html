@@ -32,7 +32,7 @@
 <body>
 
   <!-- nav bar -->
-  <nav class="navbar navbar-light">
+  <nav id="tile-0" class="navbar navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Phil's Portfolio and Stuff</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
@@ -66,13 +66,13 @@
   <!-- END BORING DETAILS --> 
   
   <!-- Tile 1 -->
-  <div id="tile-1" class="container-fluid rr bg-warning tile-1 d-flex justify-content-center">
+  <div id="tile-1" class="container-fluid rr d-flex justify-content-center">
   
     <!-- LAYER 2 --- top Layer Text-- WOULD LIKE TO MOVE POSITION AT MD AND SM BREAKPOINTS-->
     <div class="row l2 align-self-center">
-          <div class="col align-self-center bg-light opacity-75">
-            <h1>Hello, and welcome, scroll down for more...</h1>
-          </div>
+      <div class="col align-self-center bg-light opacity-75">
+        <h1>Hello, and welcome, scroll down for more...</h1>
+      </div>
     </div>
 
     <!-- Layer 1 -->
@@ -164,15 +164,13 @@
       </div>
     </div>
   </div>
-
-
   <!-- End carousel wrapper-->
   <!-- END Tile 1-->
 
   <!-- Tile 2 --> 
-  <div id="tile-2" class="container-fluid bg-info rr">
+  <div id="tile-2" class="container-fluid rr">
     <div class="row vh-100 d-flex justify-content-center">
-      <div class="col-lg">
+      <div class="col-lg ms-5 me-5">
       <!-- NAV--> 
         <nav>
           <div class="nav nav-tabs mt-5 ms-3 me-3" id="nav-tab" role="tablist">
@@ -187,7 +185,10 @@
           <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             <div class="container-fluid bg-white p-5">
               <div class="row">
-              <p class="">Phil was born, and then he was, or something like that. </p>
+                <p class="">Phil is a pretty good guy. He’s been both around the world and around the block a little bit. 
+                As a resilient creative professional, experienced in designing and executing compelling projects in diverse settings, Phil is known for applying his technical, creative, organizational, and communication skills to do cool and beneficial stuff for humans. 
+                Phil's past experience includes managing a large art studio in the non-profit sector and being public school art teacher, where he was recognized for bringing technology into the classroom in innovative ways to empower students to give back to their community after Hurricane Harvey in 2017. </p>
+                <p>In his spare time, Phil likes learning new stuff, cooking, riding bikes, exploring, gently trolling his friends, whitewater, playing almost any instrument poorly, but well enough to get by, researching the intersection of natural death and digital space,  and a lot of other things too.</p>
               </div>         
             </div>
           </div>
@@ -195,23 +196,23 @@
           <!-- Pane 2 -- Portfolio Accordion --> 
           <div class="tab-pane fade show" id="nav-profile" role="tabpanel" aria-labelledby="nav-home-tab">
             <div class="container-fluid bg-white">
-              <div class="accordion" id="accordionExample">
+              <div class="accordion" id="accordionPortfolio">
                 <!-- Item 1 --> 
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       paralax-practice
                       <a class="btn ms-5" onclick="openNewBackgroundTab()">
                         <i class="fa-brands fs-1 fa-github-square"></i>
                       </a>
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <div class="ratio ratio-16x9">
                         <iframe src="https://phillipdaum.github.io/parallax-practice/">
                         </iframe> 
-                    </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -238,18 +239,18 @@
             </div>
           </div>
 
-          <!-- Pane 2 -- Portfolio Accordion --> 
+          <!-- Pane 3 -- Other Cool Stuff --> 
           <div class="tab-pane fade show" id="nav-contact" role="tabpanel" aria-labelledby="nav-home-tab">
             <div class="container-fluid bg-white">
-              <div class="accordion" id="accordionExample">
+              <div class="accordion" id="accordionOther">
                 <!-- Item 1 --> 
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Arist CV
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionOther">
                     <div class="accordion-body">
                       <div class="ratio ratio-16x9">
                         <div class='embed-responsive'>
@@ -278,6 +279,34 @@
                     </div>
                   </div>
                 </div>
+                <!-- Item 3 --> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                      Research
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="container-fluid bg-white p-2">
+                        <div class="row">
+                          <p class="h4">Phil has been studying the interesection of natural death and digital space on and off for the last seven years or so. He thinks he wants to start a non-profit or something to fund and do this important work with others. These are things like:</p>
+                          <div class="list-group">
+                            <a href="https://www.cnn.com/2021/01/27/tech/microsoft-chat-bot-patent/index.html" target="_blank" class="list-group-item list-group-item-action">chatbots made out of dead people's data</a>
+                            <a href="https://www.thedigitalbeyond.com/online-services-list/" target="_blank" class="list-group-item list-group-item-action">digital death and afterlife services</a>
+                            <a href="https://www.orderofthegooddeath.com/death-positive-movement/" target="_blank" class="list-group-item list-group-item-action">the death positive movement</a>
+                            <a href="https://en.wikipedia.org/wiki/Transhumanism" target="_blank" class="list-group-item list-group-item-action">transhumanism and the post-human condition</a>
+                            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8294859/" target="_blank" class="list-group-item list-group-item-action">brain-computer-interfaces</a>
+                            <a href="https://www.remember.place/" target="_blank" class="list-group-item list-group-item-action">NFT death mementos in the metaverse</a>
+                            <a href="https://sarcophagus.io/" target="_blank" class="list-group-item list-group-item-action">dead man's switch crypto protocols</a>
+                            <a href="https://humana.phillipdaum.com/" target="_blank" class="list-group-item list-group-item-action">Phil's Wiki that is unfinished</a>
+                            <a href="https://www.humanaproject.phillipdaum.com/" target="_blank" class="list-group-item list-group-item-action">a possible solution he was trying, but was way ahead of himself</a>
+                          </div>
+                        </div>         
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -287,7 +316,7 @@
   </div>
 
   <!-- Tile 3 --> 
-  <div id="tile-3" class="container-fluid bg-info rr"> 
+  <div id="tile-3" class="container-fluid rr"> 
     <!-- CONTACT form --> 
     <div id="demo" class="row vh-100 align-items-center d-flex justify-content-center">
       <div class="col-lg">
@@ -341,22 +370,22 @@
   <!-- END tile 3 --> 
 
   <!-- FOOTER ADD LinkedIn GitHub-->
-  <div class="container-fluid bg-warning p-5">
-    <div class="row vh-50 d-flex align-items-top justify-content-center">
-      <div class="col-sm-10 col-lg-8 p-5">
-        <h2 class="fw-bold text-white">Phil's Stuffs</h2>
+  <div class="container-fluid vh-100">
+    <div id="tile-4" class="row d-flex align-items-top justify-content-center" style="height: 70%">
+      <div class="col-sm-10 col-lg-8 p-5 text-black text-center">
+        <h2 class="fw-bold">Phil's Stuffs</h2>
         <div class="p-2">
           <a class="btn" target="_blank" href="https://github.com/PhillipDaum">
-            <i class="fa-brands fs-1 p-2 text-white fa-github-square"></i>
+            <i class="fa-brands fs-1 p-2 fa-github-square"></i>
           </a>
           <a class="btn" target="_blank" href="https://www.linkedin.com/in/daumphil/">
-            <i class="fa-brands fs-1 p-2 text-white fa-linkedin"></i>
+            <i class="fa-brands fs-1 p-2 fa-linkedin"></i>
           </a>
           <a class="btn" target="__blank" href="https://www.youtube.com/channel/UC7HMSPLpuHaTAC3G5dOJJCA">
-            <i class="fa-brands fs-1 p-2 text-white fa-youtube-square"></i>
+            <i class="fa-brands fs-1 p-2 fa-youtube-square"></i>
           </a>
         </div>
-          <p class="text-white mb-5">Created by Phil Daum as a final project for Bitwise's Mobile Friendly Web Development course. Thanks to everyone, great instructors and students alike.</p>
+          <p class="mb-5">Created by Phil Daum as a final project for Bitwise's Mobile Friendly Web Development course. Thanks to everyone, great instructors and students alike.</p>
       </div>
     </div>
   </div>
