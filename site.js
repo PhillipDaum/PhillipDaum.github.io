@@ -18,6 +18,7 @@ function openNewBackgroundTab(){
 
 function clickyTime(){
   document.getElementById("toast").className = "toast show";
+  setTimeout(stopannoyingMove, 3500)
 }
 
 
@@ -46,7 +47,7 @@ function annoyingMove(){
 }
 
 
-//Doesn't work yet
+
 function otherannoyingMove() {
     let m = "position-fixed bottom-0 end-0 p-5"
   
@@ -54,4 +55,8 @@ function otherannoyingMove() {
     document.getElementById("trick").className = m;
     document.getElementById("toast").className = "toast show";
     document.getElementById("th").setAttribute("onmouseover", "annoyingMove()");
+}
+
+function stopannoyingMove() {
+    document.getElementById("th").setAttribute("onmouseover", "");
 }
