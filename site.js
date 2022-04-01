@@ -18,7 +18,7 @@ function openNewBackgroundTab(){
 
 function clickyTime(){
   document.getElementById("toast").className = "toast show";
-  setTimeout(stopannoyingMove, 3500)
+  setTimeout(stopannoyingMove, 4500)
 }
 
 
