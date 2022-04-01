@@ -61,3 +61,16 @@ p {
   background-size: cover;
 }
 /* BORING DETAILS */
+
+/* new thing */
+@media only screen and (max-width: 769px) {
+  #thingy {
+    margin-top: -14.3em !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #thingy {
+    margin-top: -112em !important;
+  }
+}
