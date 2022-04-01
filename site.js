@@ -1,4 +1,4 @@
-//opens one portfolio item in seperate tab NO WORKY
+//opens one portfolio item in seperate tab behind, doesnt actually put it behind
 function openNewBackgroundTab(){    
     var a = document.createElement("a");    
     a.href = "https://github.com/PhillipDaum/parallax-practice";    
@@ -32,10 +32,12 @@ function unRickRollerson(){
     document.getElementById("tile-3").className = "container-fluid rr";
     document.getElementById("tile-2").className = "container-fluid rr";
     document.getElementById("tile-1").className = "container-fluid rr d-flex justify-content-center";
-    setTimeout(100);
+    setTimeout(4000);
     document.getElementById("toast").onmouseoverName ="";
     document.getElementById("toast").className = "toast show";
 } 
+
+
 
 function annoyingMove(){
 
@@ -45,6 +47,6 @@ function annoyingMove(){
 
     
     document.getElementById("toast").className = "toast";
-    document.getElementById("trick").className = m;
+    document.getElementById("trick").className = l;
     document.getElementById("toast").className = "toast show";
 }
