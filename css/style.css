@@ -25,7 +25,7 @@ p {
   background-color: #E2FFBD;
 }
 
-#tile-3 {
+#tabs {
   background-color: #A2F8FA;
 }
 
@@ -41,28 +41,9 @@ p {
   background-color: #F2F2F2;
 }
 
-/* BORING DETAILS */
-.rr{
-}
 
 
-/* rickroll - Layer -1 */
-.l3 {
-  position: absolute;
-  z-index: -1;
-}
-
-.rickroll2 {
-  background-image: url(https://c.tenor.com/_4YgA77ExHEAAAAC/rick-roll.gif);
-  width: full;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-}
-/* BORING DETAILS */
-
-/* new thing */
+/* Breakpoints for layer 2 text on tile 1 */
 @media only screen and (max-width: 769px) {
   #thingy {
     margin-top: -14.3em !important;
