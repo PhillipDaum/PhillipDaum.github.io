@@ -6,6 +6,7 @@
 - I like to research the intersection of natural death and digital space in my spare time.
 
 ### My Projects/Skills
+- Check out my portfolio site: https://phillipdaum.github.io/
 - 🌱 I’m currently learning
   -   Javascript
 - 📫 How to reach me: philgdaum@gmail.com
