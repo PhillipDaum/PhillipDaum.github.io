@@ -2,7 +2,7 @@
 ### Headed for the full stack.
 
 ### About Me
-- BA Fine Arts Washington State University, Certified Art Teacher, Auto-didactic 💻 
+- Auto-Didact 💻, BA Fine Arts Washington State University, Certified Art Teacher, 
 - I like to research the intersection of natural death and digital space in my spare time.
 
 ### My Projects/Skills
