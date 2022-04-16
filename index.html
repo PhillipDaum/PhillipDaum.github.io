@@ -151,7 +151,6 @@
     <div class="row d-flex justify-content-center">
       <div class="col ms-5 me-5">
       <!-- NAV--> 
-      <div class="col col-sm-12 col-md-6">
         <nav>
           <div id="color-4" class="nav nav-tabs nav-fill mt-5 ms-3 me-5" id="nav-tab" role="tablist">
             <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">About Me</button>
@@ -159,9 +158,11 @@
             <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Other Cool Stuff</button>
           </div>
         </nav>
-      </div>
-        <!-- something else --> 
+
+
+        <!-- ALL TABS Content --> 
         <div class="tab-content mb-5" id="nav-tabContent">
+
         <!-- Pane 1 -- About Me --> 
           <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             <div class="container-fluid bg-white p-5">
@@ -215,9 +216,36 @@
                     </div>
                   </div>
                 </div>
-              </div>      
-          </div>
+                <!-- Item 3 --> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="tab2thing3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      phillipdaum.com - cool JavaScript Project
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="container-fluid bg-white p-2">
+                        <div class="row">
+                          <p class="">
+                          I have been making a simple text based game/chatbot in JavaScript to use as my personal website. It is still under development, check it out. </p>
+                          <div class="col justify-content-center">
+                            <a class="btn" target="_blank" href="https://www.phillipdaum.com/">
+                              <i class="fa-solid fs-1 p-2 fa-square-up-right"></i>
+                            </a>
+                            <a class="btn" target="_blank" href="https://github.com/PhillipDaum/phillipdaum.com">
+                              <i class="fa-brands fs-1 p-2 fa-github-square"></i>
+                            </a>
+                          </div>
+                        </div>         
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+              </div>
+            </div>
+        
           <!-- Pane 3 -- Other Cool Stuff --> 
           <div class="tab-pane fade show" id="nav-contact" role="tabpanel" aria-labelledby="nav-home-tab">
               <div class="accordion" id="accordionOther">
@@ -238,47 +266,10 @@
                     </div>
                   </div>
                 </div>
-                <!-- Item 2 --> 
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="tab3thing2">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      phillipdaum.com
-                      <a class="btn ms-5" target="_blank" href="https://www.phillipdaum.com/">
-                        <i class="fa-solid fs-1 fa-square-up-right"></i>
-                      </a>
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <div class="ratio ratio-16x9">
-                        <iframe src="https://www.phillipdaum.com/">
-                        </iframe>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
                 <!-- Item 3 --> 
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="tab3thing3">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                     new phillipdaum.com in development
-                      <a class="btn ms-5" target="_blank" href="https://phillipdaum.github.io/phillipdaum.com/">
-                        <i class="fa-solid fs-1 fa-square-up-right"></i>
-                      </a>
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <div class="ratio ratio-16x9">
-                        <iframe src="https://phillipdaum.github.io/phillipdaum.com/">
-                        </iframe>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Item 4 --> 
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="tab3thing4">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
                       Research
                     </button>
