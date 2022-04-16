@@ -8,7 +8,8 @@
 ### My Projects/Skills
 - Check out my portfolio site: https://phillipdaum.github.io/
 - Bootstrap, HTML, CSS
-- 🌱 I’m currently learning
+- WordPress
+- 🌱 **I’m currently learning**
   -   Javascript
   -   This is my JavaScript project: https://phillipdaum.github.io/phillipdaum.com/
 - 📫 How to reach me: philgdaum@gmail.com
