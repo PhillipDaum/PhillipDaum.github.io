@@ -6,7 +6,7 @@
 - I like to research the intersection of natural death and digital space in my spare time.
 
 ### My Projects/Skills
-- Check out my portfolio site: https://phillipdaum.github.io/
+- Check out my portfolio site: https://phillipdaum.github.io/PhillipDaum/
 - Bootstrap, HTML, CSS
 - WordPress
 - 🌱 **I’m currently learning**
