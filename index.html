@@ -28,7 +28,7 @@
   <!-- NAV bar -->
   <nav id="tile-0" class="navbar bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Phil's Portfolio</a>
+      <a class="navbar-brand" href="#">Phil Daum</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,29 +45,76 @@
   <!-- Tile 1 --> 
   <div id="tile-1" class="container-fluid bg-light">
     <div class="row d-flex justify-content-center">
-      <div class="col ms-5 me-5">
+      <div class="col ms-5 me-5 mt-5">
       <!-- NAV--> 
         <nav>
           <div id="color-4" class="nav nav-tabs nav-fill mt-5 ms-3 me-5" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">About Me</button>
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">About</button>
             <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Portfolio</button>
             <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Other Cool Stuff</button>
           </div>
         </nav>
 
-
         <!-- ALL TABS Content --> 
         <div class="tab-content mb-5" id="nav-tabContent">
 
-        <!-- Pane 1 -- About Me --> 
+        <!-- Pane 1 -- About --> 
           <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-            <div class="container-fluid bg-white p-5">
-              <div class="row">
-                <p class="">
-                As a resilient creative professional, experienced in designing and executing compelling projects in diverse settings, Phil is known for applying his technical, creative, organizational, and communication skills to do cool and beneficial stuff for humans. 
-                Phil's past experience includes managing a large art studio in the non-profit sector and being public school art teacher, where he was recognized for bringing technology into the classroom in innovative ways to empower students to give back to their community after Hurricane Harvey in 2017. </p>
-                <p>In his spare time, Phil likes learning new stuff, cooking, riding bikes, exploring, whitewater, playing almost any instrument poorly, researching the intersection of natural death and digital space, and a lot of other things too.</p>
-              </div>         
+            <div class="accordion" id="accordionPortfolio">
+              <!-- Item 1 --> 
+              <div class="accordion-item show">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    something
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapsed" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p class="">jordan can you help me write something here?</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 --> 
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    resume
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="ratio ratio-16x9">
+                      <object data="./etc/daum_phil.pdf" type="application/pdf" width="100%"> 
+                        <p>It appears you don't have a PDF plugin for this browser.
+                         No biggie... you can <a href="./etc/daum_phil.pdf">click here to
+                        download the PDF file.</a></p>  
+                      </object>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 --> 
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    links
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <a class="btn" target="_blank" href="https://github.com/PhillipDaum/">
+                        <i class="fa-brands text-primary fs-1 fa-github-square"></i>
+                      </a>
+                      <a class="btn" target="_blank" href="https://www.linkedin.com/in/daumphil/">
+                        <i class="fa-brands text-primary fs-1 fa-linkedin"></i>
+                      </a>
+                      <a class="btn" target="__blank" href="https://www.youtube.com/channel/UC7HMSPLpuHaTAC3G5dOJJCA">
+                        <i class="fa-brands text-primary fs-1 fa-youtube-square"></i>
+                      </a>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
 
@@ -78,9 +125,9 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      parallax (Bootstrap, CSS)
+                      parallax template (Bootstrap, CSS)
                       <a class="btn ms-5" target="_blank" href="https://github.com/PhillipDaum/parallax-template">
-                        <i class="fa-brands fs-1 fa-github-square"></i>
+                        <i class="fa-brands text-primary fs-1 fa-github-square"></i>
                       </a>
                     </button>
                   </h2>
@@ -97,9 +144,9 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      event-landing-page (Bootstrap)
+                      event landing page template (Bootstrap)
                       <a class="btn ms-5" target="_blank" href="https://github.com/PhillipDaum/event-landing-page">
-                        <i class="fa-brands fs-1 fa-github-square"></i>
+                        <i class="fa-brands fs-1 text-primary fa-github-square"></i>
                       </a>
                     </button>
                   </h2>
@@ -116,16 +163,16 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      phillipdaum.com (Bootstrap, JavaScript)
-                      <a class="btn ms-5" target="_blank" href=">
-                        <i class="fa-brands fs-1 fa-github-square"></i>
+                      phillipdaum.com - COMING SOON - (Bootstrap, JavaScript)
+                      <a class="btn ms-5" target="_blank" href="https://github.com/PhillipDaum/phillipdaum.com">
+                        <i class="fa-brands fs-1 text-primary fa-github-square"></i>
                       </a>
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <div class="ratio ratio-16x9">
-                        <iframe src=" https://phillipdaum.com">
+                        <iframe src="https://phillipdaum.com">
                         </iframe>
                       </div>
                     </div>
@@ -135,9 +182,9 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      artist portfolio (WordPress)
+                      portfolio site for artists (WordPress)
                       <a class="btn ms-5" target="_blank" href="http://jessieknirsch.com/">
-                        <i class="fa-solid fs-1 p-2 fa-square-up-right"></i>
+                        <i class="fa-solid fs-1 text-primary p-2 fa-square-up-right"></i>
                       </a>
                     </button>
                   </h2>
@@ -156,23 +203,29 @@
                   <h2 class="accordion-header" id="headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                       wiki
+                      <a class="btn ms-5" target="_blank" href="https://humana.phillipdaum.com/">
+                        <i class="fa-solid fs-1 text-primary p-2 fa-square-up-right"></i>
+                      </a>
                     </button>
                   </h2>
                   <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <div class="ratio ratio-16x9">
-                        <iframe src="https://humana.phillipdaum.com/index.php?title=Main_Page">
+                        <iframe src="https://humana.phillipdaum.com/">
                         </iframe>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                 <!-- Item 4 --> 
+                 <!-- Item 6 --> 
                  <div class="accordion-item">
                   <h2 class="accordion-header" id="headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                       hackathon site (WordPress)
+                      <a class="btn ms-5" target="_blank" href="https://humanaproject.phillipdaum.com/">
+                        <i class="fa-solid fs-1 text-primary p-2 fa-square-up-right"></i>
+                      </a>
                     </button>
                   </h2>
                   <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -194,7 +247,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="tab3thing1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Arist CV
+                      Phil's art CV
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionOther">
@@ -203,6 +256,26 @@
                         <div class='embed-responsive'>
                           <object data='etc/cv_phil.pdf' type='application/pdf' width='100%' height='100%'></object>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 2 --> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      video for artists
+                      <a class="btn ms-5" target="_blank" href="https://www.youtube.com/watch?v=uuazgStmVt0">
+                        <i class="fa-brands fs-1 text-primary fa-youtube-square"></i>
+                      </a>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/uuazgStmVt0">
+                        </iframe>
                       </div>
                     </div>
                   </div>
@@ -219,7 +292,7 @@
                     <div class="accordion-body">
                       <div class="container-fluid bg-white p-2">
                         <div class="row">
-                          <p class="h4">Phil has been studying the interesection of natural death and digital space on and off for the last seven years or so. He thinks he wants to start a non-profit or something to fund and do this important work with others. These are things like:</p>
+                          <p class="h4">A collection of links relating to the interesection of natural death and digital space:</p>
                           <div class="list-group">
                             <a href="https://www.cnn.com/2021/01/27/tech/microsoft-chat-bot-patent/index.html" target="_blank" class="list-group-item list-group-item-action">chatbots made out of dead people's data</a>
                             <a href="https://www.thedigitalbeyond.com/online-services-list/" target="_blank" class="list-group-item list-group-item-action">digital death and afterlife services</a>
@@ -228,7 +301,6 @@
                             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8294859/" target="_blank" class="list-group-item list-group-item-action">brain-computer-interfaces</a>
                             <a href="https://www.remember.place/" target="_blank" class="list-group-item list-group-item-action">NFT death mementos in the metaverse</a>
                             <a href="https://sarcophagus.io/" target="_blank" class="list-group-item list-group-item-action">dead man's switch crypto protocols</a>
-                            <a href="https://humana.phillipdaum.com/" target="_blank" class="list-group-item list-group-item-action">Phil's Wiki that is unfinished</a>
                             <a href="https://www.humanaproject.phillipdaum.com/" target="_blank" class="list-group-item list-group-item-action">a possible solution he was trying, but was way ahead of himself</a>
                           </div>
                         </div>         
